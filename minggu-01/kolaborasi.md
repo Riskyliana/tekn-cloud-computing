@@ -1,6 +1,6 @@
-**Kolaborasi**
+<h1>Kolaborasi</h1>
 
-**Fork**
+<h3>Fork</h3>
 
 Fork adalah membuat clone dari suatu repo di GitHub milik upstream author, diletakkan ke milik kontributor. Fork hanya dilakukan sekali saja. Pada dasarnya, proses untuk fork ini meliputi:
 
@@ -29,7 +29,7 @@ Tambahkan remote upstream:
 Hasil
 
 
-**Mengirimkan Pull Request**
+<h3>Mengirimkan Pull Request</h3>
 
 Setiap kali melakukan perubahan, kirim perubahan tersebut. Pengiriman ini disebut dengan Pull Request. Pada posisi ini, kontributor bisa mengirimkan kontribusi dengan cara mengirimkan pull request (PR) ke upstream author. Secara umum, langkah-langkahnya adalah sebagai berikut:
 
@@ -40,7 +40,7 @@ Setiap kali melakukan perubahan, kirim perubahan tersebut. Pengiriman ini disebu
 1) Upstream author me-review dan kemudian menyetujui (merge) ke master atau menolak PR.
 1) Jika disetujui dan di-merge ke repo master dari upstream author, sinkronkan repo di komputer lokal dan repo GitHub kontributor.
 
-**Membuat Perubahan di Repo Lokal**
+<h3>Membuat Perubahan di Repo Lokal</h3>
 
 Sebelum melakukan perubahan, pastikan:
 
@@ -59,7 +59,6 @@ Sebelum melakukan perubahan, pastikan:
 1) Sinkronkan semua repo (lokal maupun GitHub kontributor)
 
 
-
-**Konflik**
+<h3>Konflik</h3>
 
 Ada kemungkinan, jika satu orang mengirimkan PR untuk satu atau lebih file dan sementara itu ada lainnya juga yang mengirimkan PR pada satu atau lebih file yang sama, maka akan terjadi konflik karena ada satu atau lebih file yang sama yang di-edit dan akan di-merge. Jika sampai terjadi kasus seperti ini, maka upatream author harus menolak semua PR dan kemudian masing-masing kontributor diharapkan menyelesaikan secara manual (offline) kemudian memutuskan siapa yang akan mengirimkan PR.
